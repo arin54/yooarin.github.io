@@ -1,0 +1,60 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #e6f7ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #87ceeb;
+  border-bottom: 4px solid #5ab4d6;
+  padding: 10px 0;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #5ab4d6;
+}
+
+header, main {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2a8fc7;
+  margin-bottom: 20px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
